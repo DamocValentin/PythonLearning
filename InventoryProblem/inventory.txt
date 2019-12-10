@@ -1,0 +1,39 @@
+1001
+AMD Ryzen 3 3200G
+59877
+CPU
+3
+0.1kg
+Jackson
+Mong Kok
+Warehouse
+
+1002
+ASUS DUAL-RTX2080TI-O11G DUAL RTX2080TI OC Edition 11GB GDDR6
+208895
+Display Card
+4
+0.6kg
+Alex
+Sha Tin
+Arrival
+
+1003
+ASUS 20 VS207DE LED Monitor
+25488
+Monitor
+2
+1.2kg
+Hugo
+Kowloon Bay
+Delivery
+
+1004
+Corsair Gaming M65 PRO RGB Optical Gaming Mouse
+59863
+Mouse
+6
+0.15kg
+Louis
+Yuen Long
+Arrival
