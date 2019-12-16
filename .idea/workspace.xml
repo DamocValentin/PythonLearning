@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e2ae87a1-7462-4395-b788-fa169eea0e13" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/InventoryProblem.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PasswordGenerator.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PasswordGenerator.py" beforeDir="false" afterPath="$PROJECT_DIR$/PasswordGenerator.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -46,7 +45,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.main menu">
+  <component name="RunManager" selected="Python.PasswordGenerator">
     <configuration name="InventoryProblem" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PythonLearning" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -154,8 +153,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.InventoryProblem" />
         <item itemvalue="Python.PasswordGenerator" />
+        <item itemvalue="Python.InventoryProblem" />
         <item itemvalue="Python.SinCosinCurveGeneration" />
         <item itemvalue="Python.RockPaperScissors" />
       </list>
