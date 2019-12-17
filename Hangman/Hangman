@@ -1,0 +1,50 @@
+# This will be similar to guessing the number, except we are guessing the word.
+# The user needs to guess letters,
+# Give the user no more than 6 attempts for guessing wrong letter.
+# This will mean you will have to have a counter.
+
+import csv
+import random
+
+
+def __main__():
+
+    words_list = list()
+
+    with open('words.csv') as csv_file:
+        csv_reader = csv.reader(csv_file, delimiter=',')
+        for row in csv_reader:
+            for element in row:
+                words_list.append(element)
+
+    continue_game = input("Do you want to play?(y/n) ") == 'y'
+    while continue_game:
+
+        lives_left = 6
+        random_number = random.randint(0, len(words_list))
+        word_to_guess = words_list[random_number]
+        user_guessing_word = ["_" for i in range(0, len(word_to_guess))]
+
+        while lives_left > 0 and '_' in user_guessing_word:
+
+            print(user_guessing_word)
+            print(f'\nYou have {lives_left} lifes left\n')
+            letter = input("Choose a letter: ")
+            letter_found = 0
+
+            for i in range(0, len(word_to_guess)):
+                if word_to_guess[i] == letter:
+                    user_guessing_word[i] = letter
+                    letter_found = 1
+            if not letter_found:
+                lives_left -= 1
+
+        if '_' in user_guessing_word:
+            print(f'You lost! The word was {word_to_guess}')
+        else:
+            print(f'You won! The word was {word_to_guess}')
+
+        continue_game = input("Do you want to play?(y/n)") == 'y'
+
+
+__main__()
